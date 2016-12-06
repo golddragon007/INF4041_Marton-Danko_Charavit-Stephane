@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AniDBApplication</string>
+    <string name="anime_cover_image">Anime borító kép</string>
+    <string name="title_activity_settings">Beállítások</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="dialog_delete_cache">Biztos, hogy törlöd a gyorsítótárazott fájlokat?</string>
+    <string name="dialog_delete_cache_message">Ha törlöd a gyorsítótárazott fájlokat, akkor a program mindent az első alakalommal a szerverről fog letölteni.</string>
+    <string name="dialog_yes">Igen</string>
+    <string name="dialog_no">Nem</string>
+    <string name="storage_permission_need">Engedélyezned kell a tárhelyhez való hozzáférést a gyorsítótárazás miatt. Ez kötelező.</string>
+    <string name="episodes">"Részek: "</string>
+    <string name="permanent_rating">"Végleges értékelés: "</string>
+    <string name="temporary_rating">"Ideiglenes értékelés: "</string>
+    <string name="error_id_missing">Hoopsz, nem lett ID átadva, így nem lehet betölteni ezt az Anime oldalt.</string>
+    <string name="similar_anime">Hasonló Anime:</string>
+    <string name="notification_new_hot_anime">Új népszerű Anime</string>
+    <string name="notification_new_hot_anime_desc">Van új népszerű Anime!</string>
+    <string name="error_no_internet_connection">Nincs internetkapcsolat, ha van adat a gyorsítótárba, akkor onnan lesz betöltve.</string>
+    <string name="warning_data_from_cache">Ez az adat a gyorsítótárból lett betöltve a \'Adatok letöltése csak Wifi-n keresztül\' beállítás miatt.</string>
+    <string name="wait_until_notification">Amíg nem kap üzenetett a sikeres gyorsítótár törlésésről, kérem ne használja a programot.</string>
+    <string name="notification_cache_clear">Gyorsítótár törlése</string>
+    <string name="notification_cache_clear_desc">Siker! Folytathatja a program használatát.</string>
+    <string name="title">Cím</string>
+    <string name="ratio">Arány</string>
+    <string name="approval_total">Egyetért/Összes</string>
+    <string name="start_and_end_date">Kezdet és vége dátum</string>
+    <string name="eps">Részek</string>
+    <string name="ratingtemp">ÉrtékIdeig</string>
+    <string name="ratingperm">ÉrtékVégleg</string>
+    <string name="download_data_only_via_wifi">Adatok letöltése csak Wifi-n keresztül</string>
+    <string name="save">Mentés</string>
+    <string name="delete_cache">Gyorsítótár törlése</string>
+    <string name="type">Típus</string>
+    <string name="there_s_no_similar_anime">Nincs hasonló Anime.</string>
+    <string name="description">Leírás</string>
+    <string name="loading">Betöltés...</string>
+    <string name="open_in_browser">Megnyitás böngészőben</string>
+    <string name="settings">Beállítások</string>
+</resources>

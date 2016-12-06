@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_anime_watch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.marton.stephane.anidbapplication.AnimeWatchActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@color/colorAccent"
+                    android:id="@+id/cover"
+                    android:scaleType="fitStart"
+                    android:adjustViewBounds="true"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="@string/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:text="@string/start_and_end_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dates"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:text="@string/type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/type"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:text="@string/eps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eps"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:text="@string/ratingtemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/ratingTemp"
+                    android:paddingLeft="10dp"/>
+
+                <TextView
+                    android:text="@string/ratingperm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingPerm"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="@string/there_s_no_similar_anime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/similarText" />
+
+                <com.example.marton.stephane.anidbapplication.MyListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/similarList"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:text="@string/open_in_browser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/openInBrowser" />
+    </LinearLayout>
+
+</ScrollView>

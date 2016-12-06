@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AniDBApplication</string>
+    <string name="anime_cover_image">Anime cover image</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="dialog_delete_cache">Are you sure to delete the cached files?</string>
+    <string name="dialog_delete_cache_message">If you delete the cached files, the program will download everything from the server at the first time.</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="storage_permission_need">You need to allow to access to the storage for caching online data. This is required.</string>
+    <string name="episodes">"Episodes: "</string>
+    <string name="permanent_rating">"Permanent rating: "</string>
+    <string name="temporary_rating">"Temporary rating: "</string>
+    <string name="error_id_missing">Ooops, There\'s no ID passed, so we can\'t load this Anime page.</string>
+    <string name="similar_anime">Similar Anime:</string>
+    <string name="notification_new_hot_anime">New Hot Anime</string>
+    <string name="notification_new_hot_anime_desc">There\'s new hot anime available!</string>
+    <string name="error_no_internet_connection">There\'s no internet connection, if there\'s data in the cache it will be loaded from there.</string>
+    <string name="warning_data_from_cache">This data will be loaded from the cache due to the use of \'Download data only via wifi\' settings.</string>
+    <string name="wait_until_notification">Until you don\'t get a notification from the successful cache clear, please don\'t use the App.</string>
+    <string name="notification_cache_clear">Cache clear</string>
+    <string name="notification_cache_clear_desc">Successful! You can continue the application use.</string>
+    <string name="title">Title</string>
+    <string name="ratio">Ratio</string>
+    <string name="approval_total">Approval/Total</string>
+    <string name="start_and_end_date">Start and End date</string>
+    <string name="eps">EPs</string>
+    <string name="ratingtemp">RatingTemp</string>
+    <string name="ratingperm">RatingPerm</string>
+    <string name="download_data_only_via_wifi">Download data only via Wifi</string>
+    <string name="save">Save</string>
+    <string name="delete_cache">Delete cache</string>
+    <string name="type">Type</string>
+    <string name="there_s_no_similar_anime">There\'s no similar Anime</string>
+    <string name="description">Description</string>
+    <string name="loading">Loading...</string>
+    <string name="open_in_browser">Open in Browser</string>
+    <string name="settings">Settings</string>
+</resources>

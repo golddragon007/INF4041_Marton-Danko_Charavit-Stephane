@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        app:srcCompat="@color/colorAccent"
+        android:id="@+id/cover"
+        android:layout_weight="2"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/anime_cover_image"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="@string/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:text="@string/start_and_end_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dates"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:text="@string/eps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eps"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:text="@string/ratingtemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/ratingTemp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:text="@string/ratingperm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingPerm"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+</LinearLayout>

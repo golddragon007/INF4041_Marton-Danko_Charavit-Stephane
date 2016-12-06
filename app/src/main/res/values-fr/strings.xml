@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AniDBApplication</string>
+    <string name="anime_cover_image">Image de couverture</string>
+    <string name="title_activity_settings">Options</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="dialog_delete_cache">Êtes-vous sur de vouloir supprimer se fichier?</string>
+    <string name="dialog_delete_cache_message">Si vous supprimé se fichier antémémorisé, le programe téléchargera tout du serveur la première fois.</string>
+    <string name="dialog_yes">Oui</string>
+    <string name="dialog_no">Non</string>
+    <string name="storage_permission_need">Vous devez autorisé l\'accès à la mémoire pour antémémorisé les données sur internet. C\'est obligatoire.</string>
+    <string name="episodes">"Episodes: "</string>
+    <string name="permanent_rating">"Note permanente: "</string>
+    <string name="temporary_rating">"Note temporaire: "</string>
+    <string name="error_id_missing">Oups, il n\'y a pas d\'identification en entré. On ne peut donc pas charger cette page de l\'anime.</string>
+    <string name="similar_anime">Anime Similaire:</string>
+    <string name="notification_new_hot_anime">Nouveau Anime</string>
+    <string name="notification_new_hot_anime_desc">Il y a de nouveau anime disponible.</string>
+    <string name="error_no_internet_connection">Il n\'y a pas de connection internet, si il y a des donnéses antémémorisé, elles seront chargé depuis ses dernières.</string>
+    <string name="warning_data_from_cache">Cette donnée sera chargé depuis la mémoire antémémorisé à cause des options de wifi.</string>
+    <string name="wait_until_notification">Tant qu\'aucune notification ne vous informe du succès de la suppéssion de la mémoire antémémorisé, veuilliez ne pas utilisé l\'application.</string>
+    <string name="notification_cache_clear">Mémoire antémémrisé supprimé.</string>
+    <string name="notification_cache_clear_desc">Vous pouvez continuer d\'utiliser l\'application.</string>
+    <string name="title">Titre</string>
+    <string name="ratio">Ratio</string>
+    <string name="approval_total">Approuvé/Total</string>
+    <string name="start_and_end_date">Date de début et de fin</string>
+    <string name="eps">Eps</string>
+    <string name="ratingtemp">NoteTemp</string>
+    <string name="ratingperm">NotePerm</string>
+    <string name="download_data_only_via_wifi">Téléchargement des données seulement par wifi</string>
+    <string name="save">Sauvegardé</string>
+    <string name="delete_cache">Mémoire antémémrisé supprimé.</string>
+    <string name="type">Type</string>
+    <string name="there_s_no_similar_anime">Il n\'y a pas d\'anime similaire</string>
+    <string name="description">Description</string>
+    <string name="loading">Chargement...</string>
+    <string name="open_in_browser">Ouverture dans le navigateur</string>
+    <string name="settings">Options</string>
+</resources>
